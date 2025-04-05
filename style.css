@@ -1,0 +1,46 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center and style the main heading */
+  h1 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin: 30px 0 20px;
+  }
+  
+  /* Center and style the subheadings */
+  h2 {
+    text-align: center;
+    color: rgb(0, 30, 255);
+    margin: 20px 0;
+  }
+  
+  /* Center the tables using margin: auto */
+  table {
+    margin: 0 auto 40px auto;
+    border-collapse: collapse;
+    width: 50%; /* Adjust width as needed */
+    border: 2px solid black;
+    text-align: left;
+  }
+  
+  /* Style table headers and cells */
+  th,
+  td {
+    border: 2px solid black;
+    padding: 12px 16px;
+  }
+
+  tbody {
+    background-color: rgb(211, 255, 227);
+  }
+  
+  /* Optional: background for table headers */
+  thead {
+    background-color: yellow;
+  }
+  
